@@ -109,7 +109,7 @@
             <li Class="StockGenerator_BuyTradeTag"><tag>FCP_Wastelander_Apparel</tag></li>
             <li Class="StockGenerator_BuyTradeTag"><tag>FCP_Pre_War_Apparel</tag></li>
             <li Class="StockGenerator_BuyTradeTag"><tag>FCP_Combat_Armors</tag></li>
-            <li Class="StockGenerator_BuyCategory"><category>Apparel</category></li>
+            <li Class="StockGenerator_BuyExpensiveSimple"></li>
 
             <!--__ Currency __-->
 
@@ -196,8 +196,7 @@
             <!--__ Buying __-->
 
             <li Class="StockGenerator_BuyTradeTag"><tag>FCP_Chems</tag></li>
-            <li Class="StockGenerator_BuyCategory"><category>Medicine</category></li>
-            <li Class="StockGenerator_BuyCategory"><category>Drugs</category></li>
+            <li Class="StockGenerator_BuyExpensiveSimple"></li>
 
             <!--__ Currency __-->
 
