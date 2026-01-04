@@ -38,6 +38,7 @@
 			</li>
 		</backstoryFilters>
 		<caravanTraderKinds>
+			<li>FCP_Caravan_Power_Armor_Trader</li>
 			<li>Caravan_Outlander_BulkGoods</li>
 			<li>Caravan_Outlander_CombatSupplier</li>
 		</caravanTraderKinds>
@@ -74,7 +75,7 @@
 			<li>
 				<kindDef>Trader</kindDef>
 				<traders>
-					<FCP_Pawnkind_Wastelander_Citizen>1</FCP_Pawnkind_Wastelander_Citizen>
+					<FCP_Pawnkind_Wastelander_Trader>1</FCP_Pawnkind_Wastelander_Trader>
 				</traders>
 				<carriers>
 					<Muffalo>6</Muffalo>
@@ -167,7 +168,7 @@
 			<li>
 				<kindDef>Trader</kindDef>
 				<traders>
-					<FCP_Pawnkind_Scavenger>1</FCP_Pawnkind_Scavenger>
+					<FCP_Pawnkind_Scavenger_Trader>1</FCP_Pawnkind_Scavenger_Trader>
 				</traders>
 				<carriers>
 					<Muffalo>6</Muffalo>
