@@ -59,7 +59,11 @@
         <combatPower>30</combatPower>
         <itemQuality>Poor</itemQuality>
         <gearHealthRange>0.5~1.8</gearHealthRange>
-        <apparelMoney>600~1000</apparelMoney>
+        <apparelMoney>200~400</apparelMoney>
+        <apparelAllowHeadgearChance>0.15</apparelAllowHeadgearChance>
+        <apparelTags>
+            <li>FCP_Wastelander_Apparel</li>
+        </apparelTags>
         <weaponMoney>600</weaponMoney>
         <weaponTags>
             <li>Gun</li>
@@ -266,7 +270,7 @@
     <PawnKindDef ParentName="FCP_WastelanderkindBase" MayRequire="Rick.FCP.Wastelanders">
         <defName>FCP_Pawnkind_Rivet_City_Security</defName>
         <label>Rivet City Security Officer</label>
-        <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+        <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
         <combatPower>50</combatPower>
         <gearHealthRange>1~1.8</gearHealthRange>
         <apparelMoney>1000~2000</apparelMoney>
@@ -309,7 +313,8 @@
         <combatPower>65</combatPower>
         <itemQuality>Normal</itemQuality>
         <gearHealthRange>0.7~1.8</gearHealthRange>
-        <apparelMoney>800~1500</apparelMoney>
+        <apparelMoney>400~600</apparelMoney>
+        <apparelAllowHeadgearChance>0.15</apparelAllowHeadgearChance>
         <weaponMoney>700</weaponMoney>
         <weaponTags>
             <li>Gun</li>
@@ -345,7 +350,7 @@
         <combatPower>30</combatPower>
         <itemQuality>Poor</itemQuality>
         <gearHealthRange>0.5~1.8</gearHealthRange>
-        <apparelMoney>600~1000</apparelMoney>
+        <apparelMoney>200~400</apparelMoney>
         <weaponMoney>600</weaponMoney>
         <weaponTags>
             <li>Gun</li>

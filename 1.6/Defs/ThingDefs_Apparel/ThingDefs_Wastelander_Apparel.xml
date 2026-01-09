@@ -3068,6 +3068,7 @@
 			<layers>
 				<li>Shell</li>
 				<li>Middle</li>
+				<li>OnSkin</li>
 			</layers>
 			<tags>
 				<li>FCP_Wastelander_Apparel</li>
@@ -3136,7 +3137,6 @@
 			</layers>
 			<tags>
 				<li>FCP_Wastelander_Apparel</li>
-				<li>FCP_Raider_Apparel</li>
 			</tags>
 			<defaultOutfitTags>
 				<li>FCP_Wastelander_Outfit</li>

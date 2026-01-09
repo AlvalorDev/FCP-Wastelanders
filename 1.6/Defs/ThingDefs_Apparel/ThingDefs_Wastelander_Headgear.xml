@@ -583,10 +583,11 @@
             </bodyPartGroups>
             <wornGraphicPath>Things/Apparel/Wasteland_Apparel/Gas_Mask_With_Goggles/FCP_Gas_Mask_With_Goggles</wornGraphicPath>
             <layers>
-                <li>OnSkin</li>
+                <li>Overhead</li>
             </layers>
             <tags>
                 <li>FCP_Raider_Armor</li>
+                <li>FCP_Wastelander_Apparel</li>
             </tags>
         </apparel>
         <comps>
@@ -644,10 +645,11 @@
             </bodyPartGroups>
             <wornGraphicPath>Things/Apparel/Wasteland_Apparel/Assault_Gas_Mask/FCP_Assault_Gas_Mask</wornGraphicPath>
             <layers>
-                <li>OnSkin</li>
+                <li>Overhead</li>
             </layers>
             <tags>
                 <li>FCP_Raider_Armor</li>
+                <li>FCP_Wastelander_Apparel</li>
             </tags>
         </apparel>
         <comps>
