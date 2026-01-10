@@ -12,7 +12,7 @@
         <label>Wastelander Techprint Traders</label>
         <pawnSingular>Wasteland Trader</pawnSingular>
         <pawnsPlural>Wasteland Traders</pawnsPlural>
-        <categoryTag>FCP_Wastelanders</categoryTag>
+        <categoryTag>FCP_Faction_Hidden_Wastelander_Techprint_Traders</categoryTag>
         <requiredCountAtGameStart>1</requiredCountAtGameStart>
         <maxConfigurableAtWorldCreation>1</maxConfigurableAtWorldCreation>
         <configurationListOrderPriority>2000</configurationListOrderPriority>
@@ -39,7 +39,7 @@
             <li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
         </disallowedMemes>
         <caravanTraderKinds>
-            <!-- <li>FCP_Caravan_Brahmin_Herder</li> -->
+            <li>FCP_Caravan_Wastelander_Techprint_Trader</li>
         </caravanTraderKinds>
         <maxPawnCostPerTotalPointsCurve>
             <points>
@@ -70,10 +70,10 @@
 
             <!-- Traders -->
 
-            <!-- <li Class="FCP.Core.GroupMakerWithTraderKind">
+            <li>
                 <kindDef>Trader</kindDef>
                 <traders>
-                    <FCP_Unique_Pawnkind_Wastelander_Trader_Crow>1</FCP_Unique_Pawnkind_Wastelander_Trader_Crow>
+                    <FCP_Pawnkind_Wastelander_Trader>1</FCP_Pawnkind_Wastelander_Trader>
                 </traders>
                 <carriers>
                     <FCP_Animal_Brahmin>6</FCP_Animal_Brahmin>
@@ -81,7 +81,7 @@
                 <guards>
                     <FCP_Pawnkind_Wastelander_Caravan_Guard>5</FCP_Pawnkind_Wastelander_Caravan_Guard>
                 </guards>
-            </li> -->
+            </li>
         </pawnGroupMakers>
         <modExtensions Inherit="False">
             <li Class="FCP.Core.ModExtension_HiddenFactionHasCaravans" />

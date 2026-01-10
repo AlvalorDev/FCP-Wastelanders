@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!--__________ Techprint Trader __________-->
+
+    <!--_____ Wasteland Techprint Trader _____-->
+
+    <TraderKindDef>
+        <defName>FCP_Caravan_Wastelander_Techprint_Trader</defName>
+        <label>Wasteland Techprint Trader</label>
+        <stockGenerators>
+
+            <!--__ Techprints __-->
+
+            <!-- FCP Techprints only (faction-based filtering) -->
+            <li Class="StockGenerator_Techprints">
+                <countChances>
+                    <li>
+                        <count>3</count>
+                        <chance>1</chance>
+                    </li>
+                    <li>
+                        <count>5</count>
+                        <chance>0.5</chance>
+                    </li>
+                    <li>
+                        <count>8</count>
+                        <chance>0.2</chance>
+                    </li>
+                </countChances>
+            </li>
+
+            <!--__ Other Items __-->
+
+            <!-- Technical Components -->
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>ComponentIndustrial</thingDef>
+                <countRange>10~30</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>ComponentSpacer</thingDef>
+                <countRange>2~8</countRange>
+            </li>
+
+            <!-- Tech Items -->
+            <li MayRequire="FCP.Tools" Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Item_Fusion_Core</thingDef>
+                <countRange>1~4</countRange>
+            </li>
+
+            <!--__ Currency __-->
+
+            <!-- Caps -->
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Currency_Caps</thingDef>
+                <countRange>1500~3000</countRange>
+            </li>
+
+            <!--__ Buying __-->
+
+            <li Class="StockGenerator_BuyExpensiveSimple" />
+            <li Class="StockGenerator_BuyTradeTag"><tag>Techprints</tag></li>
+            <li Class="StockGenerator_BuyTradeTag"><tag>Art</tag></li>
+
+        </stockGenerators>
+    </TraderKindDef>
+
+</Defs>
