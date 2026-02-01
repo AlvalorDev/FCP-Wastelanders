@@ -68,6 +68,9 @@
 			<texPath>Things/Apparel/Wasteland_Apparel/CombatArmorLight/FCP_Combat_Armor_Chestpiece_Modular_Light</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
+		<thingCategories>
+			<li>ApparelArmor</li>
+		</thingCategories>
 		<recipeMaker Inherit="false">
 			<unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
 			<skillRequirements>
@@ -131,6 +134,9 @@
 			<texPath>Things/Apparel/Wasteland_Apparel/CombatArmorSturdy/FCP_Combat_Armor_Chestpiece_Modular_Sturdy</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
+		<thingCategories>
+			<li>ApparelArmor</li>
+		</thingCategories>
 		<recipeMaker Inherit="false">
 			<unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
 			<skillRequirements>
@@ -193,6 +199,9 @@
 			<texPath>Things/Apparel/Wasteland_Apparel/CombatArmorHeavy/FCP_Combat_Armor_Chestpiece_Modular_Heavy</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
+		<thingCategories>
+			<li>ApparelArmor</li>
+		</thingCategories>
 		<recipeMaker Inherit="false">
 			<unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
 			<skillRequirements>
@@ -255,6 +264,9 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>0.90</drawSize>
 		</graphicData>
+		<thingCategories>
+			<li>ApparelArmor</li>
+		</thingCategories>
 		<tradeTags>
 			<li>Armor</li>
 		</tradeTags>
@@ -326,6 +338,9 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>0.90</drawSize>
 		</graphicData>
+		<thingCategories>
+			<li>ApparelArmor</li>
+		</thingCategories>
 		<recipeMaker Inherit="false">
 			<unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
 			<skillRequirements>

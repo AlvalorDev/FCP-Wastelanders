@@ -188,7 +188,7 @@
         <itemQuality>Poor</itemQuality>
         <gearHealthRange>0.5~1.8</gearHealthRange>
         <apparelMoney>600~1000</apparelMoney>
-        <weaponMoney>600</weaponMoney>
+        <weaponMoney>1200</weaponMoney>
         <weaponTags>
             <li>GunHeavy</li>
             <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Assault_Rifle</li>
@@ -230,7 +230,7 @@
         <itemQuality>Poor</itemQuality>
         <gearHealthRange>0.5~1.8</gearHealthRange>
         <apparelMoney>600~1000</apparelMoney>
-        <weaponMoney>600</weaponMoney>
+        <weaponMoney>1200</weaponMoney>
         <weaponTags>
             <li>GunHeavy</li>
             <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Assault_Rifle</li>
