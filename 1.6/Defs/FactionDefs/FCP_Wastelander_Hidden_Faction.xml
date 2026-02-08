@@ -84,9 +84,9 @@
             </li>
         </pawnGroupMakers>
         <modExtensions Inherit="False">
-            <li Class="FCP.Core.ModExtension_HiddenFactionHasCaravans" />
+            <li Class="FCP.Factions.FactionExtension_HiddenFactionHasCaravans" />
             <!-- Make them unable to use drop pods -->
-            <li Class="FCP.Core.ModExtension_FactionBannedArrivalModes">
+            <li Class="FCP.Factions.FactionExtension_BannedArrivalModes">
                 <arrivalModes>
                     <li>EdgeDrop</li>
                     <li>EdgeDropGroups</li>
@@ -183,9 +183,9 @@
             </li> -->
         </pawnGroupMakers>
         <modExtensions Inherit="False">
-            <li Class="FCP.Core.ModExtension_HiddenFactionHasCaravans" />
+            <li Class="FCP.Factions.FactionExtension_HiddenFactionHasCaravans" />
             <!-- Make them unable to use drop pods -->
-            <li Class="FCP.Core.ModExtension_FactionBannedArrivalModes">
+            <li Class="FCP.Factions.FactionExtension_BannedArrivalModes">
                 <arrivalModes>
                     <li>EdgeDrop</li>
                     <li>EdgeDropGroups</li>
