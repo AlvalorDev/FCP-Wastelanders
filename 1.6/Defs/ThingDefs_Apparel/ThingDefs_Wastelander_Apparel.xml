@@ -68,9 +68,6 @@
 			<texPath>Things/Apparel/Wasteland_Apparel/CombatArmorLight/FCP_Combat_Armor_Chestpiece_Modular_Light</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-		<thingCategories>
-			<li>ApparelArmor</li>
-		</thingCategories>
 		<recipeMaker>
 			<skillRequirements>
 				<Crafting>5</Crafting>
@@ -130,9 +127,6 @@
 			<texPath>Things/Apparel/Wasteland_Apparel/CombatArmorSturdy/FCP_Combat_Armor_Chestpiece_Modular_Sturdy</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-		<thingCategories>
-			<li>ApparelArmor</li>
-		</thingCategories>
 		<recipeMaker>
 			<skillRequirements>
 				<Crafting>6</Crafting>
@@ -191,9 +185,6 @@
 			<texPath>Things/Apparel/Wasteland_Apparel/CombatArmorHeavy/FCP_Combat_Armor_Chestpiece_Modular_Heavy</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-		<thingCategories>
-			<li>ApparelArmor</li>
-		</thingCategories>
 		<recipeMaker>
 			<skillRequirements>
 				<Crafting>7</Crafting>
@@ -252,9 +243,6 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>0.90</drawSize>
 		</graphicData>
-		<thingCategories>
-			<li>ApparelArmor</li>
-		</thingCategories>
 		<tradeTags>
 			<li>Armor</li>
 		</tradeTags>
@@ -322,9 +310,6 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>0.90</drawSize>
 		</graphicData>
-		<thingCategories>
-			<li>ApparelArmor</li>
-		</thingCategories>
 		<recipeMaker>
 			<skillRequirements>
 				<Crafting>9</Crafting>
